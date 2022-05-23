@@ -1,0 +1,22 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrpineda/team-profile-generator.git"
+  },
+  "author": "Luis Pineda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lrpineda/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/lrpineda/team-profile-generator#readme"
+}

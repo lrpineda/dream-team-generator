@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lrpineda/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/lrpineda/team-profile-generator#readme"
+  "homepage": "https://github.com/lrpineda/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }

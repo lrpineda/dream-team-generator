@@ -43,7 +43,7 @@ class ProfileGenerator {
                         console.log('You must add at least one employee');
                         this.addEmployee();
                     }
-                    console.log('Generating HTML...');
+                    console.log('\n\n---- Generating HTML... ----');
                     writeFile(this.generateHTML())
                         .then(result => {
                             console.log(result.message)});
@@ -76,7 +76,7 @@ class ProfileGenerator {
                         if(this.validateEmail(emailInput)) {
                             return true;
                         } else {
-                            console.log('Please enter a valid email');
+                            console.log('\nPlease enter a valid email');
                             return false ;
                         }
                     } else {
@@ -134,7 +134,7 @@ class ProfileGenerator {
                         if(this.validateEmail(emailInput)) {
                             return true;
                         } else {
-                            console.log('Please enter a valid email');
+                            console.log('\nPlease enter a valid email');
                             return false ;
                         }
                     } else {
@@ -192,7 +192,7 @@ class ProfileGenerator {
                         if(this.validateEmail(emailInput)) {
                             return true;
                         } else {
-                            console.log('Please enter a valid email');
+                            console.log('\nPlease enter a valid email');
                             return false ;
                         }
                     } else {

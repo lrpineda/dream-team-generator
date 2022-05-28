@@ -3,7 +3,7 @@ const Employee = require("../lib/Employee");
 // Creating a function to generate the HTML for the Manager
 const manager = managerInfo => {
     return `
-                <div class="column is-3">
+                <div class="column">
                     <div class="box has-background-info has-text-centered mb-0">
                         <h1 class="title is-3 has-text-white">${managerInfo.name}</h1>
                         <p class="subtitle is-5 has-text-white"><i class="fa-solid fa-mug-hot"></i>  Manager</p>
@@ -20,7 +20,7 @@ const manager = managerInfo => {
 // Create a function to generate the HTML for the Intern
 const intern = internInfo => {
     return `
-                <div class="column is-3">
+                <div class="column">
                     <div class="box has-background-info has-text-centered mb-0">
                         <h1 class="title is-3 has-text-white">${internInfo.name}</h1>
                         <p class="subtitle is-5 has-text-white"><i class="fa-solid fa-user-graduate"></i>  Intern</p>
@@ -37,7 +37,7 @@ const intern = internInfo => {
 // 
 const engineer = engineerInfo => {
     return `
-                <div class="column is-3">
+                <div class="column">
                     <div class="box has-background-info has-text-centered mb-0">
                         <h1 class="title is-3 has-text-white">${engineerInfo.name}</h1>
                         <p class="subtitle is-5 has-text-white"><i class="fa-solid fa-user-cog"></i>  Engineer</p>
